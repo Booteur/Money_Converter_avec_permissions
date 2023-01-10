@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TP2 - XML Vue</string>
+    <string name="textview">MoneyConverter</string>
+    <string name="radioBtnETD">Euro -> Dinar</string>
+    <string name="radioBtnDTE">Dinar -> Euro</string>
+    <string name="Convert">Convert</string>
+    <string name="label">The result will be displayed here</string>
+    <string name="m"> m </string>
+    <string name="mal">malek</string>
+    <string name="quitter_lab">Quitter</string>
+    <string name="title_money_converter">Money Converter</string>
+</resources>

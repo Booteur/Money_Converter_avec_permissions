@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#422093"
+        android:paddingTop="30px"
+        android:text="@string/title_money_converter"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textFontWeight="500"
+        android:textSize="50px" />
+    />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/value_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your solde here"
+        android:minHeight="48dp" />
+
+    <RadioGroup
+        android:id="@+id/RGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50px"
+        android:paddingTop="50px"
+        android:paddingRight="50px"
+
+        >
+
+        <RadioButton
+            android:id="@+id/euro2dinar_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:paddingBottom="50px"
+            android:text="@string/radioBtnETD"
+            android:textSize="30px" />
+
+        <RadioButton
+            android:id="@+id/dinar2euro_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:paddingBottom="50px"
+            android:text="@string/radioBtnDTE"
+            android:textSize="30px" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/convert_bn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="#9C27B0"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="20px"
+        android:shadowRadius="20"
+        android:text="@string/Convert"
+        android:textColor="#FFFFFF"
+        android:textSize="35px" />
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textFontWeight="500"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textViewOutPut"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/quitter_bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#72DF4B"
+        android:gravity="center_vertical"
+        android:text="@string/quitter_lab"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
